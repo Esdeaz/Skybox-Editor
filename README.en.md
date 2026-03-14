@@ -22,6 +22,14 @@ Local editor for equirectangular panoramas and skybox textures with live 3D sphe
 - Edit directly on a sphere with orbit camera and exposure control.
 - Export to `PNG` and `HDR (original size)`.
 
+### Important setting: Polar-safe mode
+- Available in the `Performance` panel.
+- Enables safer pole processing to reduce pole distortions and artifacts.
+- Main parameter: `Polar row samples` (`16..1024`, default `64`).
+- Directly affects pole quality for: `Stamp`, `Healing`, `Brush texture`, and `Texture Painting`.
+- `16` (minimum): faster, but more pixelated/coarse result.
+- `1024` (maximum): best quality/detail, but higher CPU/GPU load.
+
 ### Layers
 - Layer list with active layer selection.
 - Add, duplicate, delete layers.
