@@ -1,4 +1,4 @@
-﻿# Sphere Editor
+﻿# Skybox Editor
 
 **[RU](README.md) | EN**
 
@@ -14,7 +14,7 @@ Local editor for equirectangular panoramas and skybox textures with live 3D sphe
 ### Goal
 - Provide one focused tool for editing and creating equirectangular textures with live 3D feedback, layers, selections, and export.
 
-## What Sphere Editor can do
+## What Skybox Editor can do
 
 ### Core workflow
 - Load existing panorama (`PNG/JPG/HDR`).
