@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1b261f"/>
+      <stop offset="100%" stop-color="#142018"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#9be63f"/>
+      <stop offset="100%" stop-color="#76c92b"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="24" y="24" width="976" height="976" rx="190" fill="url(#bg)"/>
+
+  <circle cx="480" cy="470" r="240" fill="none" stroke="url(#green)" stroke-width="56"/>
+  <path d="M325 470c0-85 70-155 155-155" fill="none" stroke="#a7f04a" stroke-width="28" stroke-linecap="round"/>
+  <path d="M480 625c-85 0-155-70-155-155" fill="none" stroke="#73be2a" stroke-width="28" stroke-linecap="round"/>
+
+  <g transform="translate(0,0) rotate(-28 640 360)">
+    <rect x="600" y="212" width="74" height="320" rx="35" fill="#0f1712"/>
+    <rect x="610" y="216" width="54" height="190" rx="27" fill="#27352c"/>
+    <path d="M594 530h86l-43 122z" fill="url(#green)"/>
+  </g>
+
+  <text x="730" y="790" font-family="Segoe UI, Arial, sans-serif" font-size="190" font-weight="700" fill="#8fdf3a">SE</text>
+</svg>

@@ -1,0 +1,44 @@
+{
+  "name": "sphere-editor",
+  "version": "1.0.0",
+  "description": "Desktop skybox editor",
+  "main": "electron/main.js",
+  "scripts": {
+    "icons": "node scripts/generate-icons.js",
+    "start": "node node_modules/electron/cli.js .",
+    "start:web": "node sphere-editor/serve.js",
+    "dist": "node node_modules/electron-builder/cli.js --win portable",
+    "dist:dir": "node node_modules/electron-builder/cli.js --win --dir"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^37.2.0",
+    "electron-builder": "^26.0.12",
+    "hdr.js": "^0.2.0",
+    "png-to-ico": "^3.0.1",
+    "sharp": "^0.34.5"
+  },
+  "build": {
+    "appId": "com.sphere.editor",
+    "productName": "Sphere Editor",
+    "files": [
+      "electron/**/*",
+      "sphere-editor/**/*",
+      "package.json"
+    ],
+    "win": {
+      "icon": "build/icon.ico",
+      "target": [
+        "portable"
+      ],
+      "signAndEditExecutable": false
+    },
+    "npmRebuild": false,
+    "buildDependenciesFromSource": false,
+    "portable": {
+      "artifactName": "Sphere-Editor-Portable-${version}.exe"
+    }
+  }
+}
